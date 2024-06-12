@@ -19,13 +19,19 @@ export default function TableOfContent() {
     },
   ];
   return (
-    <section className="mt-16 flex gap-x-10">
+    <section className="mt-16 flex gap-x-6 lg:gap-x-10">
       <div>
-        <p className="text-xl font-bold text-gray-light mb-4">Our Products</p>
+        <p className="lg:text-xl text-lg font-bold text-gray-light mb-2 lg:mb-4">
+          Our Products
+        </p>
         <ul className="flex flex-col gap-y-2.5">
           {products.map((product) => {
             return (
-              <Link className="text-lg" key={product.name} href={product.href}>
+              <Link
+                className="text-sm md:text-base lg:text-lg"
+                key={product.name}
+                href={product.href}
+              >
                 {product.name}
               </Link>
             );
@@ -33,11 +39,17 @@ export default function TableOfContent() {
         </ul>
       </div>
       <div>
-        <p className="text-xl font-bold text-gray-light mb-4">Supports</p>
+        <p className="lg:text-xl text-lg font-bold text-gray-light mb-2 lg:mb-4">
+          Supports
+        </p>
         <ul className="flex flex-col gap-y-2.5">
           {supports.map((support) => {
             return (
-              <Link className="text-lg" key={support.name} href={support.href}>
+              <Link
+                className="text-sm md:text-base lg:text-lg"
+                key={support.name}
+                href={support.href}
+              >
                 {support.name}
               </Link>
             );
