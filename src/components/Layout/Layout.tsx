@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import Header from "../Header";
 import Head from "next/head";
+import Footer from "../Footer";
 
 export default function Layout({
   children,
@@ -16,7 +17,10 @@ export default function Layout({
         <title>{tabName}</title>
       </Head>
       <Header />
-      <main className="max-w-[100rem] mx-auto text-white">{children}</main>
+      <main className="max-w-[100rem] mx-auto text-white min-h-screen">
+        {children}
+      </main>
+      <Footer />
     </>
   );
 }
