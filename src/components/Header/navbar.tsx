@@ -1,16 +1,17 @@
 import Link from "next/link";
 
+export const navs = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Portfolio Templates",
+    href: "/portfolio",
+  },
+];
+
 export default function Navbar() {
-  const navs = [
-    {
-      name: "Home",
-      href: "/",
-    },
-    {
-      name: "Portfolio Templates",
-      href: "/portfolio",
-    },
-  ];
   return (
     <nav className="lg:flex items-center gap-x-6 hidden">
       {navs.map((nav) => {
