@@ -24,7 +24,7 @@ export default function Header() {
           height={1000}
           quality={65}
           priority
-          className="h-24 lg:hidden w-auto max-w-1/3"
+          className="h-16 md:h-24 lg:hidden w-auto max-w-1/3"
         />
         <CircleUser className="lg:hidden" />
         <div className="lg:flex items-center gap-x-8 hidden">
