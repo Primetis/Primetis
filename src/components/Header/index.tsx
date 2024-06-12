@@ -8,7 +8,7 @@ import AuthSideBar from "./authSideBar";
 export default function Header() {
   return (
     <header className="bg-primary">
-      <div className="max-w-[100rem] mx-auto flex items-center justify-between text-white pr-4 lg:pr-0">
+      <div className="max-w-[100rem] mx-auto flex items-center justify-between text-white md:py-3.5 lg:py-0 pr-4 lg:pr-0">
         <div className="lg:hidden">
           <NavSideBar />
         </div>
@@ -28,7 +28,7 @@ export default function Header() {
           height={1000}
           quality={65}
           priority
-          className="h-16 md:h-24 lg:hidden w-auto max-w-1/3"
+          className="h-16 md:h-18 lg:hidden w-auto max-w-1/3"
         />
         <AuthSideBar />
         <div className="lg:flex items-center gap-x-8 hidden">
