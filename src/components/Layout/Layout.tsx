@@ -16,7 +16,7 @@ export default function Layout({
         <title>{tabName}</title>
       </Head>
       <Header />
-      <main className="max-w-[100rem] mx-auto">{children}</main>
+      <main className="max-w-[100rem] mx-auto text-white">{children}</main>
     </>
   );
 }
