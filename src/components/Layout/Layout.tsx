@@ -32,7 +32,10 @@ export default function Layout({
       </Head>
       <Header />
       <main
-        className={cn("max-w-[100rem] mx-auto min-h-screen", poppins.className)}
+        className={cn(
+          "max-w-[100rem] mx-auto min-h-screen text-black mb-16 lg:mb-0 px-4 lg:px-0",
+          poppins.className
+        )}
       >
         {children}
       </main>
