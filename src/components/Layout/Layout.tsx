@@ -33,7 +33,7 @@ export default function Layout({
       <Header />
       <main
         className={cn(
-          "max-w-[100rem] mx-auto min-h-screen text-black mb-16 lg:mb-0 px-4 lg:px-0",
+          "max-w-[100rem] mx-auto min-h-screen text-black mb-16 lg:pb-16 lg:mb-0 px-4 lg:px-0",
           poppins.className
         )}
       >
