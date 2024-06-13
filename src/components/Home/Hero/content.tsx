@@ -25,10 +25,10 @@ export default function Content() {
   return (
     <div className="flex flex-col items-center lg:items-start gap-y-6 text-center lg:text-left lg:gap-y-10 lg:w-1/2 self-center">
       <TypewriterEffect
-        className="lg:text-left h-[78.75px] md:h-fit !leading-normal lg:h-[126px] lg:text-5xl text-3xl text-center"
+        className="lg:text-left h-max md:h-fit !leading-normal lg:h-[126px] lg:text-5xl text-3xl text-center"
         words={words}
       />
-      <p className="lg:text-xl">
+      <p className="lg:text-xl text-gray-strong">
         {
           "Effortlessly create a professional-looking website with Primetis. Our extensive range of customizable templates ensures you'll find the perfect match for your needs."
         }
