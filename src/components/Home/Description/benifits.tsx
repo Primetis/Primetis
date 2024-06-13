@@ -31,7 +31,7 @@ export default function Benifits() {
   return (
     <div className="flex flex-col md:w-3/5 lg:w-auto md:mx-auto lg:mx-0 lg:flex-row lg:jusitfy-between gap-x-14 gap-y-10">
       {benifits.map((benifit) => {
-        return <BenifitCard benifit={benifit} />;
+        return <BenifitCard key={benifit.heading} benifit={benifit} />;
       })}
     </div>
   );
