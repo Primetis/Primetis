@@ -20,13 +20,10 @@ export default function Description() {
           </p>
           <p className="font-base lg:text-lg text-gray-strong">
             Discover{" "}
-            <span className="text-primary font-semibold">Primetis</span>, where
-            crafting a standout resume is made effortless. We've developed a
-            cutting-edge resume builder based on extensive user feedback,
-            recruiter insights, and impeccable template design aligned with the
-            best hiring practices. Our goal is straightforward: to empower you
-            with the tools and advantage needed to secure your dream job
-            interview in today's competitive professional landscape.
+            <span className="text-primary font-semibold">Primetis</span>,{" "}
+            {
+              "where crafting a standout resume is made effortless. We've developed a cutting-edge resume builder based on extensive user feedback, recruiter insights, and impeccable template design aligned with the best hiring practices. Our goal is straightforward: to empower you with the tools and advantage needed to secure your dream job interview in today's competitive professional landscape."
+            }
           </p>
           <Link
             className="bg-primary rounded-lg font-semibold text-white w-fit p-2.5 lg:p-3 lg:text-lg"
