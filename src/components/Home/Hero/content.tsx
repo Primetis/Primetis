@@ -29,9 +29,9 @@ export default function Content() {
         words={words}
       />
       <p className="lg:text-xl">
-        Effortlessly create a professional-looking website with Primetis. Our
-        extensive range of customizable templates ensures you'll find the
-        perfect match for your needs.
+        {
+          "Effortlessly create a professional-looking website with Primetis. Our extensive range of customizable templates ensures you'll find the perfect match for your needs."
+        }
       </p>
       <button className="p-[4px] relative w-fit font-semibold lg:text-lg">
         <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-xl" />
