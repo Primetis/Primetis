@@ -1,35 +1,38 @@
 import Image from "next/image";
 import Navbar from "./navbar";
 import Authentication from "./authentication";
-import { CircleUser, Menu } from "lucide-react";
 import NavSideBar from "./navSideBar";
 import AuthSideBar from "./authSideBar";
+import { poppins } from "../Layout/Layout";
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-primary">
+    <header className={`bg-primary ${poppins.className}`}>
       <div className="max-w-[100rem] mx-auto flex items-center justify-between text-white md:py-3.5 lg:py-0 pr-4 lg:pr-0">
         <div className="lg:hidden">
           <NavSideBar />
         </div>
-        <Image
-          src="/images/Primetis.jpg"
-          alt=""
-          width={1000}
-          height={1000}
-          quality={65}
-          priority
-          className="hidden lg:block lg:h-32 w-auto"
-        />
-        <Image
-          src="/images/Primetis_notext.png"
-          alt=""
-          width={1000}
-          height={1000}
-          quality={65}
-          priority
-          className="h-16 md:h-18 lg:hidden w-auto max-w-1/3"
-        />
+        <Link href="/">
+          <Image
+            src="/images/Primetis.jpg"
+            alt=""
+            width={1000}
+            height={1000}
+            quality={65}
+            priority
+            className="hidden lg:block lg:h-32 w-auto"
+          />
+          <Image
+            src="/images/Primetis_notext.png"
+            alt=""
+            width={1000}
+            height={1000}
+            quality={65}
+            priority
+            className="h-16 md:h-18 lg:hidden w-auto max-w-1/3"
+          />
+        </Link>
         <AuthSideBar />
         <div className="lg:flex items-center gap-x-8 hidden">
           <Navbar />
