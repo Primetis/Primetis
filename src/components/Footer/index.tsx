@@ -8,7 +8,7 @@ export default function Footer() {
     <footer
       className={cn("bg-primary text-white px-3 lg:px-0", poppins.className)}
     >
-      <div className="max-w-[100rem] min-h-24 mx-auto lg:pb-24 pb-8 flex flex-col md:flex-row justify-between">
+      <div className="max-w-[100rem] min-h-24 mx-auto lg:pb-24 pb-14 flex flex-col md:flex-row justify-between">
         <div className="flex flex-col">
           <Image
             src="/images/Primetis_secondary-removebg.png"
