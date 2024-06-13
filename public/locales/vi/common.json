@@ -4,5 +4,10 @@
         "templates": "Các Mẫu Portfolio",
         "login": "Đăng Nhập",
         "signup": "Đăng Kí"
+    },
+    "hero": {
+        "heading": "Thiết Kế Trang Web Của Riêng Bạn Tại",
+        "desc": "Dễ dàng tạo một trang web chuyên nghiệp với Primetis. Nhiều mẫu có thể tùy chỉnh của chúng tôi đảm bảo bạn sẽ tìm thấy mẫu phù hợp hoàn hảo với nhu cầu của mình.",
+        "button": "Tạo Trang Web"
     }
 }

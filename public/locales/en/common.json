@@ -4,5 +4,10 @@
         "templates": "Portfolio Templates",
         "login": "Log In",
         "signup": "Sign Up"
+    },
+    "hero": {
+        "heading": "Design Your Digital Presence With",
+        "desc": "Effortlessly create a professional-looking website with Primetis. Our extensive range of customizable templates ensures you'll find the perfect match for your needs.",
+        "button": "Create Your Website"
     }
 }
