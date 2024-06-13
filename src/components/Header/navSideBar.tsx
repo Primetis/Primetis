@@ -19,6 +19,7 @@ export default function NavSideBar() {
           width={1000}
           height={1000}
           quality={50}
+          priority
           className="h-32 w-fit -mt-10"
         />
         <ul className="flex flex-col gap-y-3.5">
