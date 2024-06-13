@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Shelby";
+  src: url("../../public/fonts/Anothershabby_trial.ttf");
+}
+
 * {
   outline: none;
 }
