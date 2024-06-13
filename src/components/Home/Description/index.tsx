@@ -11,6 +11,8 @@ export default function Description() {
           alt=""
           width={1000}
           height={1000}
+          quality={85}
+          priority
           className="lg:w-[40%] w-1/2 h-auto"
         />
         <div className="lg:w-1/2 flex flex-col gap-y-6 lg:gap-y-6 text-center md:text-left items-center md:items-start">

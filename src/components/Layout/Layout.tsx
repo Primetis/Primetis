@@ -1,7 +1,6 @@
-import { ReactNode } from "react";
+import { ReactNode, useTransition } from "react";
 import Header from "../Header";
 import Head from "next/head";
-import Footer from "../Footer";
 import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
@@ -14,7 +13,7 @@ export const poppins = Poppins({
 });
 
 const DynamicFooter = dynamic(() => import("../Footer"), {
-  loading: () => <>Loading...</>,
+  loading: () => <></>,
 });
 
 export default function Layout({
