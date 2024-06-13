@@ -23,9 +23,9 @@ export default function Content() {
     },
   ];
   return (
-    <div className="flex flex-col gap-y-4 lg:w-1/2 self-center">
+    <div className="flex flex-col items-center lg:items-start gap-y-6 text-center lg:text-left lg:gap-y-10 lg:w-1/2 self-center">
       <TypewriterEffect
-        className="text-left lg:h-[84px] lg:text-5xl text-3xl"
+        className="lg:text-left h-[63px] md:h-fit lg:h-[84px] lg:text-5xl text-3xl text-center"
         words={words}
       />
       <p className="lg:text-xl">
