@@ -36,7 +36,7 @@ export default function Header() {
         <AuthSideBar />
         <div className="lg:flex items-center gap-x-8 hidden">
           <Navbar />
-          <span className="text-3xl -mt-1.5 hidden lg:block">&#x7c;</span>
+          <span className="text-3xl -mt-1.5 hidden lg:block">|</span>
           <Authentication />
         </div>
       </div>
