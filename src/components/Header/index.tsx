@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Navbar from "./navbar";
 import Authentication from "./authentication";
-import { poppins } from "../Layout/Layout";
+import { exo2 } from "../Layout/Layout";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
@@ -15,7 +15,7 @@ const DynamicAuthSideBar = dynamic(() => import("../Header/authSideBar"), {
 
 export default function Header() {
   return (
-    <header className={`bg-primary ${poppins.className}`}>
+    <header className={`bg-primary ${exo2.className}`}>
       <div className="max-w-[100rem] mx-auto flex items-center justify-between text-white md:py-3.5 lg:py-0 pr-4 lg:pr-0">
         <div className="lg:hidden">
           <DynamicNavSideBar />
