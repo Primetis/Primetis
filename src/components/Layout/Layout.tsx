@@ -1,15 +1,14 @@
 import { ReactNode, useTransition } from "react";
 import Header from "../Header";
 import Head from "next/head";
-import { Poppins } from "next/font/google";
+import { Exo_2 } from "next/font/google";
 import { cn } from "@/lib/utils";
 import dynamic from "next/dynamic";
 
-export const poppins = Poppins({
-  subsets: ["latin"],
+export const exo2 = Exo_2({
+  subsets: ["vietnamese"],
   display: "swap",
-  variable: "--font-poppins",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 const DynamicFooter = dynamic(() => import("../Footer"), {
@@ -33,7 +32,7 @@ export default function Layout({
       <main
         className={cn(
           "max-w-[100rem] mx-auto min-h-screen text-black mb-16 lg:pb-16 lg:mb-0 px-4 lg:px-0",
-          poppins.className
+          exo2.className
         )}
       >
         {children}
