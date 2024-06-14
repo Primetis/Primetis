@@ -9,5 +9,29 @@
         "heading": "Thiết Kế Trang Web Của Riêng Bạn Tại",
         "desc": "Dễ dàng tạo một trang web chuyên nghiệp với Primetis. Nhiều mẫu có thể tùy chỉnh của chúng tôi đảm bảo bạn sẽ tìm thấy mẫu phù hợp hoàn hảo với nhu cầu của mình.",
         "button": "Tạo Trang Web"
+    },
+    "introduction": {
+        "title": "Giới thiệu bản thân chỉ trong một",
+        "highlight": "trang web",
+        "desc": {
+            "discover": "Khám phá",
+            "highlight": "Primetis",
+            "content": ", nơi việc tạo nên một bản lý lịch nổi bật trở nên dễ dàng. Chúng tôi đã phát triển một công cụ tạo CV tiên tiến dựa trên phản hồi từ người dùng, hiểu biết từ các nhà tuyển dụng và thiết kế mẫu hoàn hảo theo các thực hành tuyển dụng tốt nhất. Mục tiêu của chúng tôi rất rõ ràng: mang đến cho bạn những công cụ và lợi thế cần thiết để đảm bảo buổi phỏng vấn cho công việc mơ ước của bạn trong thị trường lao động cạnh tranh ngày nay.",
+            "button": "Tham Khảo Mẫu"
+        },
+        "benifits": {
+            "one": {
+                "title": "Phong Cách Đa Dạng Và Đẹp Mắt",
+                "desc": "Khám phá Primetis và tìm hiểu bộ sưu tập đa dạng các mẫu thiết kế đẹp mắt, phù hợp với mọi phong cách và mục đích. Dù bạn đang giới thiệu một hồ sơ năng lực, khởi nghiệp hay xây dựng sự hiện diện trực tuyến, các mẫu thiết kế của chúng tôi mang đến vẻ đẹp ấn tượng và dễ dàng tùy chỉnh, giúp bạn nổi bật một cách dễ dàng."
+            },
+            "two": {
+                "title": "Phù Hợp Với Nhiều Ngành Nghề",
+                "desc": "Primetis cung cấp các mẫu thiết kế đa năng được tùy chỉnh cho các chuyên gia trong nhiều ngành công nghiệp khác nhau. Từ lĩnh vực doanh nghiệp đến các ngành sáng tạo, các mẫu thiết kế của chúng tôi phản ánh xu hướng hiện đại và các thực hành tốt nhất, giúp bạn trình bày chuyên môn của mình một cách hiệu quả và chuyên nghiệp."
+            },
+            "three": {
+                "title": "Hỗ Trợ Và Tư Vấn",
+                "desc": "Tại Primetis, chúng tôi ưu tiên sự thành công của bạn bằng cách cung cấp hỗ trợ đáng tin cậy ở mọi giai đoạn. Đội ngũ tận tâm của chúng tôi luôn sẵn sàng trợ giúp kịp thời, dù bạn cần hướng dẫn tùy chỉnh mẫu hay hỗ trợ kỹ thuật, đảm bảo bạn có trải nghiệm suôn sẻ khi xây dựng và quản lý sự hiện diện trực tuyến của mình."
+            }
+        }
     }
 }
