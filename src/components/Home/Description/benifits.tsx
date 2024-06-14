@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import BenifitCard from "./benifitCard";
 import { FileStack, MessageCircleQuestion, School } from "lucide-react";
+import { useTranslation } from "next-i18next";
 
 export type Benifit = {
   icon: ReactNode;
@@ -9,23 +10,24 @@ export type Benifit = {
 };
 
 export default function Benifits() {
+  const { t } = useTranslation("common");
   const benifits = [
     {
       icon: <FileStack className="text-primary lg:size-24 size-10" />,
-      heading: "Beautiful and Various Templates",
-      desc: "Explore Primetis and discover a diverse selection of beautifully crafted templates designed to suit every style and purpose. Whether you're showcasing a portfolio, launching a startup, or establishing an online presence, our templates offer stunning aesthetics and easy customization to help you stand out effortlessly.",
+      heading: t("introduction.benifits.one.title"),
+      desc: t("introduction.benifits.one.desc"),
     },
     {
       icon: <School className="text-primary lg:size-24 size-10" />,
-      heading: "Suitable For Many Professions",
-      desc: "Primetis offers versatile templates tailored for professionals across diverse industries. From corporate to creative fields, our templates reflect modern trends and best practices, empowering you to showcase your expertise effectively and professionally.",
+      heading: t("introduction.benifits.two.title"),
+      desc: t("introduction.benifits.two.desc"),
     },
     {
       icon: (
         <MessageCircleQuestion className="text-primary lg:size-24 size-10" />
       ),
-      heading: "Strong Support",
-      desc: "At Primetis, we prioritize your success with reliable support at every step. Our dedicated team ensures prompt assistance, whether you need guidance on template customization or technical help, ensuring a smooth experience as you build and manage your online presence.",
+      heading: t("introduction.benifits.three.title"),
+      desc: t("introduction.benifits.three.desc"),
     },
   ];
   return (

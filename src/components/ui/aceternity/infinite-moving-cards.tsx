@@ -1,3 +1,5 @@
+"use-client";
+
 import { cn } from "@/lib/utils";
 import React, { Fragment, useEffect, useState } from "react";
 import Image from "next/image";
